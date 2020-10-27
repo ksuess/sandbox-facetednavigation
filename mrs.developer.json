@@ -1,0 +1,8 @@
+{
+    "volto-facetednavigation": {
+        "url": "https://github.com/ksuess/volto-facetednavigation.git",
+        "package": "@rohberg/volto-facetednavigation",
+        "branch": "master",
+        "path": "src"
+    }
+}

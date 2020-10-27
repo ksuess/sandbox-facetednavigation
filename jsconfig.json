@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "paths": {
+            "@rohberg/volto-facetednavigation": [
+                "addons/volto-facetednavigation/src"
+            ]
+        },
+        "baseUrl": "src"
+    }
+}
