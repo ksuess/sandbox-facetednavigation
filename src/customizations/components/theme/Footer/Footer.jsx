@@ -7,7 +7,7 @@ import React from 'react';
 import { Container, List, Segment } from 'semantic-ui-react';
 import { Link } from 'react-router-dom';
 import { FormattedMessage, defineMessages, injectIntl } from 'react-intl';
-import Testcomponent from 'addons/volto-facetednavigation/src/components/Testcomponent/Testcomponent';
+// import Testcomponent from 'addons/volto-facetednavigation/src/components/Testcomponent/Testcomponent';
 
 const messages = defineMessages({
   copyright: {
@@ -33,7 +33,8 @@ const Footer = ({ intl }) => (
   >
     <Container>
       <Segment basic inverted color="grey" className="discreet">
-        <Testcomponent />
+        {/* <Testcomponent /> */}
+        I am your Fooooter
       </Segment>
       <List horizontal inverted>
         {/* wrap in div for a11y reasons: listitem role cannot be on the <a> element directly */}
