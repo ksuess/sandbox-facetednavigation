@@ -19,12 +19,22 @@ import {
   blocks as defaultBlocks,
 } from '@plone/volto/config';
 
+import { FacetedNavigationView } from '~/components';
+
 export const settings = {
   ...defaultSettings,
 };
 
 export const views = {
   ...defaultViews,
+  // layoutViews: {
+  //   ...defaultViews.layoutViews,
+  //   facetednavigation_view: FacetedNavigationView,
+  // },
+  contentTypesViews: {
+    ...defaultViews.contentTypesViews,
+    Document: FacetedNavigationView,
+  },
 };
 
 export const widgets = {

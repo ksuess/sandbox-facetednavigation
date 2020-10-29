@@ -8,3 +8,9 @@
  *   Footer,
  * };
  */
+
+import FacetedNavigationView from './theme/View/FacetedNavigationView';
+
+export {
+  FacetedNavigationView,
+};
