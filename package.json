@@ -16,7 +16,7 @@
   },
   "private": true,
   "workspaces": [
-    "src/addons/volto-facetednavigation"
+    "src/addons/*"
   ],
   "addons": [
     "@rohberg/volto-facetednavigation"
@@ -31,7 +31,7 @@
       "^.+\\.scss$": "jest-css-modules",
       "^.+\\.(png)$": "jest-file",
       "^.+\\.(jpg)$": "jest-file",
-      "^.+\\.(svg)$": "./node_modules/@plone/volto/jest-svgsystem-transform.js"
+      "^.+\\.(svg)$": ",/node_modules/@plone/volto/jest-svgsystem-transform.js"
     },
     "transformIgnorePatterns": [
       "/node_modules/(?!@plone/volto).+\\.js$"
@@ -94,10 +94,23 @@
     "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
   "engines": {
-    "node": "^10 || ^12"
+    "node": "^10 || ^12 || ^14"
   },
   "dependencies": {
-    "@plone/volto": "8.6.0"
+    "@plone/volto": "8.6.0",
+    "axios":"0.19.2",
+    "lodash":"4.17.15",
+    "qs":"6.8.0",
+    "react":"16.13.1",
+    "react-dom":"16.13.1",
+    "react-overridable":"0.0.3",
+    "react-redux":"7.2",
+    "redux":"4.0.5",
+    "redux-thunk":"2.3.0",
+    "semantic-ui-css":"2.4.1",
+    "semantic-ui-react":"0.88.0",
+    "@babel/runtime":"7.9.0"
+
   },
   "devDependencies": {
     "@babel/core": "7.11.1",
