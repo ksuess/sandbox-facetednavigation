@@ -15,8 +15,12 @@
     "develop": "missdev --config=jsconfig.json --output=addons"
   },
   "private": true,
-  "workspaces": ["src/addons/*"],
-  "addons": ["@rohberg/volto-facetednavigation"],
+  "workspaces": [
+    "src/addons/volto-facetednavigation"
+  ],
+  "addons": [
+    "@rohberg/volto-facetednavigation"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
